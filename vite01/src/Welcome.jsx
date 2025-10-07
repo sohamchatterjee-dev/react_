@@ -1,8 +1,11 @@
 import React from 'react'
+import Message from './Message'
 
 function Welcome() {
   return (
-    <div>Welcome soham</div>
+    <h1>Welcome soham <Message/>
+        
+    </h1>
   )
 }
 
